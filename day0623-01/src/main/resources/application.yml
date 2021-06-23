@@ -1,0 +1,11 @@
+server:
+  port: 80
+user:
+  username: sweeney
+  password: 123456
+  address: shanghai
+#可以通过spring.profiles.active配置切换运行环境：
+spring:
+  profiles:
+    active: prod
+#除此以外，还可以在运行jar包时，通过命令: java -jar 文件名.jar --spring.profiles.active=环境名 在指定环境中运行
